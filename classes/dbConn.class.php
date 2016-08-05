@@ -8,7 +8,7 @@
       try{
         
 	//assign PDO object to db Variable
-	self::$db = new PDO('mysql:host=sql2.njit.edu;dbname=yk92;', 'yk92','kc8PZ8Mz');
+	self::$db = new PDO('mysql:host=XXXXXXX;dbname=XXX;', 'XXXXXX','XXXXXXXXXXXXX');
 	self::$db->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       }
       catch (PDOException $e) {
